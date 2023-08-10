@@ -1,2 +1,2 @@
 # Razer-website
-cloning razer website
+cloning razer website.
