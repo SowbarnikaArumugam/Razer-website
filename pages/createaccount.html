@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Razer ID</title>
+    <link rel="stylesheet" href="../assets/style.css">
     <link rel="icon" href="../assets/images/Razer-logo.png">
-    <style>
+    <!-- <style>
        *{margin:0; padding:0;} body{
             margin: 0;
             background-image: url("../assets/images/Razer-login\ image.jpg");
@@ -51,8 +52,30 @@
             border: 0.5px solid blue;
             gap:20px;
         }
+        .line{
+            margin-top: 36px;
+        }
+        .line>.helper{
+            margin-bottom: 36px;
+            text-align: center;
+            position: relative;
+        }
+        .line>.helper:before{
+            content:"";
+            position: absolute;
+            top:0;
+            bottom:0;
+            width:100%;
+            height: 1px;
+        }
+        .line>.helper>.text{
+            display: inline-block;
+            font-size: 13px;
+            color: gray;
+            position: relative;
+        }
 
-    </style>
+    </style> -->
 </head>
 <body>
     <div class="top">
@@ -60,25 +83,63 @@
         <br>
         <hr color="green" width="100%">
     </div>
-    <div class="full">
-        <center>
-            <div class="full-box"></div>
-            <form method="POST">
-                
-              <h2>CREATE RAZER ID ACCOUNT</h2>
-              <p>Razer ID is a unified account for all Razer services</p>
-              <div class="flex-container">
-                <div class="flex-box">
+    <div class="main-login"></div>
+      <div class="login">
+            <p id="p1">CREATE RAZER ID ACCOUNT</p>
+            <p id="p1">Razer ID is a unified account for all Razer services</p>
+            <div class="button-group">
                   <button class="item-1">Box1</button>
                   <button class="item-2">Box2</button>
                   <button class="item-3">Box3</button>
-                </div>
-              </div>
-                  
-            
-            </form>
             </div>
-        </center>
+            <div class="line">
+                <span>or</span>
+            </div>
+            <div class="input-groups">
+                <input type="text" >
+                <input type="text" >
+                <input type="text" >
+                <input type="text" >
+                <input type="text" >
+            </div>
+            <p id="p1">Sign up for Razer emails</p>
+            <div class="sign-up">
+                <div class="small-box">
+                    <input type="checkbox" >
+                    <label form="checkbox" style="color:white">Razer.com</label><br>
+                    <input type="checkbox">
+                    <label form="checkbox"  style="color:white">Razer Gold & Silver</label><br>
+                    <input type="checkbox">
+                    <label form="checkbox"  style="color:white">Razer Cortex and Razer Game Deals</label><br>
+                    <input type="checkbox">
+                    <label form="checkbox" style="color:white">New Razer Product and Services Information</label><br>
+                    <input type="checkbox">
+                    <label form="checkbox" style="color:white">RazerStore Rewards</label>
+                    
+                </div>
+            </div>
+                <div class="para-margin"></div>
+                  <p id="p1"> Terms and Conditions</p>
+                  <p id="p1">Based on your consent, we will customize advertisements and recommendations that may match your interests.</p>
+                  <p id="p1">Razer respects your privacy thus your consent settings<br> can be changed at any time on your Razer ID profile page.</p>
+                  <p id="p1">Do you accept the Terms of Service and Privacy Policy?</p>
+                </div>
+                <div class="human-group">
+                    <input type="checkbox" class="checkbox">
+                    <label form="checkbox" class="checkbox-gap"  style="color:white">I am human</label>
+                    
+                </div>
+                <div class="accept-button">
+                    <button type="button"> ACCEPT AND CREATE
+                    </button>
+                </div>
+                <center>
+                <p id="p1">Already have an account ?</p>
+                <p id="p1">Log in</p>
+                </center>
+            </div>
+        </div>         
+     
     </div>
 </body>
 </html>
