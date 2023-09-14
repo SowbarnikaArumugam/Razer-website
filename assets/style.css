@@ -22,7 +22,7 @@
     border: 1px solid black;   
     width: 25%;
     justify-content: center;
-    align-items: center; 
+    /* align-items: center;  */
     min-height: 120vh;
     margin-top: 20px;
     margin-bottom: 10px;
