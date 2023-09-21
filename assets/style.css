@@ -41,7 +41,11 @@
 }
 #p1{
     margin-left: 13px;
-    margin-top: 15px;
+    margin-top: 10px;
+    color:white;
+}
+#p2{
+    margin-left: 13px;
     color:white;
 }
 .button-group button{
@@ -98,7 +102,6 @@ input.checkbox{
 label.checkbox-gap{
     
     padding-left: 15px ;
-}
 .accept-button{
     /* width: 400px;  */
     height:40px;
