@@ -9,7 +9,7 @@
     height: 180vh;
 }
 .top{
-    text-align: left;
+    text-align: center;
     color:white ;
     background-color: black;
     font-size: 20px;
@@ -108,4 +108,40 @@ label.checkbox-gap{
     height:40px;
     /* display: flexbox; */
     margin-left: 100px;
+}
+/* login page */
+.loginbox{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 60vh;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.logininput-groups{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 25px;
+    height: 50%;
+    margin: 10px 0 10px 40px;
+}
+.logininput-groups input{
+    width:280px;
+    height:37px;
+    border-radius: 5px;
+}
+#p3{
+    color: white;
+    margin: 10px 0 0 140px;
+}
+.loginb{
+    margin: 40px 0px 10px 110px;
+}
+.login-loginbutton{
+    width: 200px;
+    height: 25px;
 }
