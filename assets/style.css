@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    height: 180vh;
+    height: 185vh;
 }
 .top{
     border: 2px solid green;
@@ -16,12 +16,15 @@
     border-left: 0px;
     border-right: 0;
     text-align: left;
-    padding: 14px 0 5px 350px;
+    padding: 10px 0 5px 300px;
     color:white ;
     background-color: black;
     font-size: 18px;
     height:40px;
 
+}
+.top-p{
+    padding-top: 0px;
 }
 .login{
     background-color: black;
@@ -36,7 +39,7 @@
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 10px 30px 10px ;
+    padding: 10px 20px 30px 10px ;
 
     
 }
@@ -108,7 +111,7 @@
     margin-bottom: 20px;
 }
 .input-groups input{
-    width:300px;
+    width:350px;
     height:40px;
     border: 0.6px solid grey;
     border-color: grey;
@@ -116,9 +119,8 @@
     border-radius: 3px;
     background-repeat: no-repeat;
 }
-#hbd{
+.input-groups.hbd{
     background-image: url("../assets/images/icon-question-grey.332c47a4.svg");
-    /* position:right; */
     /* padding-right: 30px; */
 }
 .small-box input{
@@ -157,16 +159,18 @@ label.checkbox-gap{
     margin-left: 100px; */
 }
 .button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(52, 125, 52);
+    color: rgb(6, 66, 6);
     border: none;
-    padding: 15px 32px;
+    padding: 5px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px 2px 40px;
+    margin: 2px 2px 2px 40px;
     cursor: pointer;
+    width:300px;
+    height: 30px;
     
   }
 
@@ -207,4 +211,16 @@ label.checkbox-gap{
 .login-loginbutton{
     width: 200px;
     height: 25px;
+}
+.bottom{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    /* grid-gap: 16px; */
+    padding: 17px;
+    
+
 }
