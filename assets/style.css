@@ -1,5 +1,7 @@
 
-*{margin: 0; padding: 0;}body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{margin: 0; padding: 0; font-family: rob;}body{
     margin: 0;
     background-image: url("../assets/images/Razer-login\ image.jpg");
     padding: 0;
@@ -29,11 +31,13 @@
     width: 25%;
     justify-content: center;
     /* align-items: center;  */
-    height: 130vh;
+    height: 160vh;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 10px 30px 10px ;
+
     
 }
 
@@ -41,31 +45,57 @@
     display: flex;
     margin-left: 20px;
     margin-top: 20px; 
-    gap:20px;    
-    
-    
+    gap:20px;
+}
+.button-group .item-1{
+    background-color: rgb(55, 141, 228);
+    border:0px;
+    border-radius: 3px;
+}
+.button-group .item-2{
+    background-color: white;
+    border:0px;
+    border-radius: 3px;
+}
+.button-group .item-3{
+    background-color: rgb(147, 33, 200);
+    border:0px;
+    border-radius: 3px;
+}
+#p{
+    margin-top: 10px;
+    margin-left: 13px;
+    color:white;
 }
 #p1{
     margin-left: 13px;
     margin-top: 10px;
     color:white;
 }
-#p2{
-    margin-left: 13px;
+#ps{
+    margin-left: 8px;
     color:white;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 .button-group button{
        height: 30px;
        width: 100px;
 }
 .line{
-    border: 1px solid grey;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding-top: 15px;
+    border-bottom: 1px solid grey;
     margin-bottom: 20px;
-    
+    margin-top: 20px;
+    outline: none;
+    line-height: 0.1em;
+    text-align: center;
+}
+.line span{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 600;
+    color: grey;
 }
 .input-groups{
     display: flex;
@@ -74,11 +104,22 @@
     gap: 25px;
     /* align-items: center;  */
     height: 50%;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .input-groups input{
-    width:270px;
-    height:37px;
+    width:300px;
+    height:40px;
+    border: 0.6px solid grey;
+    border-color: grey;
+    background-color: black;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+#hbd{
+    background-image: url("../assets/images/icon-question-grey.332c47a4.svg");
+    /* position:right; */
+    /* padding-right: 30px; */
 }
 .small-box input{
     margin-bottom: 20px;
@@ -110,11 +151,26 @@ label.checkbox-gap{
     padding-left: 15px ;
 }
 .accept-button{
-    /* width: 400px;  */
+    /* width: 400px; 
     height:40px;
-    /* display: flexbox; */
-    margin-left: 100px;
+    /* display: flexbox; 
+    margin-left: 100px; */
 }
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 2px 40px;
+    cursor: pointer;
+    
+  }
+
+
 /* login page */
 .loginbox{
     display: flex;
