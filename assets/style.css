@@ -10,6 +10,15 @@
     box-sizing: border-box;
     height: 185vh;
 }
+.body1{
+    margin: 0;
+    background-image: url("../assets/images/Razer-login\ image.jpg");
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+}
 .top{
     border: 2px solid green;
     border-top: 0;
@@ -66,8 +75,8 @@
     border-radius: 3px;
 }
 #p{
-    margin-top: 10px;
-    margin-left: 13px;
+    margin-top: 25px;
+    margin-left: 39px;
     color:white;
 }
 #p1{
@@ -75,6 +84,7 @@
     margin-top: 10px;
     color:white;
 }
+
 #ps{
     margin-left: 8px;
     color:white;
@@ -174,9 +184,10 @@ label.checkbox-gap{
     display: flex;
     border: 1px solid black;
     flex-direction: column;
-    height: 70vh;
-    width: 400px;
-    margin-top: 30px;
+    height: 60vh;
+    width: 390px;
+    padding 0px 10px 10px 10px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -186,22 +197,22 @@ label.checkbox-gap{
     flex-direction: column;
     width:50%;
     gap: 25px;
-    height: 50%;
-    margin: 10px 0 10px 40px;
+    height: 100px;
+    margin: 20px 0 10px 40px;
     
 }
 .logininput-groups input{
     width:280px;
     height:37px;
     border-radius: 5px;
+    border:1px solid grey;
+    background-color: black;
 }
 #p3{
     color: white;
     margin: 10px 0 0 140px;
 }
-.loginb{
-    margin: 40px 0px 10px 110px;
-}
+
 .login-loginbutton{
     width: 200px;
     height: 25px;
@@ -214,6 +225,19 @@ label.checkbox-gap{
     align-items: center;
     background: rgba(0,0,0,.7);
     /* grid-gap: 16px; */
+    padding: 17px;
+    
+
+}
+.bottom-p{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    /* grid-gap: 16px; */
+    margin-top: 135px;
     padding: 17px;
     
 
