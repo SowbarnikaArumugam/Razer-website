@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
     
 }
-
+body{
+    background-color: rgb(59, 52, 52);
+}
 
 
 header{
@@ -66,3 +68,107 @@ header{
     margin: 0;
     padding: 0;
 } */
+.home{
+    margin-top: 50px;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(83, 72, 72, 0.411);
+}
+.home p{
+    padding: 11px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.bg{
+    min-height: 100vh;
+    background-image: url(../assets/images/main-index/razer-blade-14-homepage-desktop2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.bg1{
+    min-height: 100vh;
+    background-image: url(../assets/images/main-index/razer-new-year-2024-campaign-homepage-large-2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.bg2{
+    min-height: 100vh;
+    background-image: url(../assets/images/main-index/razer-iskur-v2-homepage-desktop2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 50px;
+    padding: 20px;
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+}
+h3{
+    padding: 2px;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+h5{
+    padding: 5px;
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+}
+
+.gap{
+    height:8px;  
+    color:rgb(34, 20, 20);
+}
+
+.division{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px));
+    align-items: center;
+    gap: 1.7rem;
+}
+.row{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/razer-blade16-2024-b-950x580-desktop.webp);
+    background-size: cover;
+}
+.row1{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/against-the-current-campaign-b-950x580-desktop.webp);
+    background-size: cover;
+}
+.row2{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/razer-esports-line-b-950x580-desktop-v2.webp);
+    background-size: cover;
+}
+.row3{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/new-synapse-chroma-open-beta-b-950x580-desktop.webp);
+    background-size: cover;
+}
+.row4{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/fujin-pro-b-950x580-desktop.webp);
+    background-size: cover;
+}
+.row5{
+    width: 750px;
+    height: 500px;
+    background-image: url(../assets/images/main-index/ebonus-card-b-950x580-desktop.webp);
+    background-size: cover;
+}
