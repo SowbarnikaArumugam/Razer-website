@@ -132,9 +132,10 @@ h5{
 
 .division{
     display: grid;
-    grid-template-columns: repeat(2, minmax(350px));
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 1.7rem;
+    column-gap: 0.65rem;
+    row-gap: 0.7rem;
 }
 .row{
     width: 750px;
@@ -171,4 +172,26 @@ h5{
     height: 500px;
     background-image: url(../assets/images/main-index/ebonus-card-b-950x580-desktop.webp);
     background-size: cover;
+}
+h2{
+    padding: 50px;
+    padding-bottom: 10px;
+    font-size: 33px;
+    font-weight: 500;
+    color: white;
+    align-items: center;
+}
+h4{
+    padding: 2px;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    align-items: center;
+}
+h6{
+    padding: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    align-items: center;
 }
