@@ -256,4 +256,20 @@ footer p{
     font-size: 13px;
     
 }
-
+.store-para{
+    display: flex;
+    flex-direction: row;
+}
+.store-para p{
+    color: white;
+    font-size: 17px;
+    padding-top: 0%;
+    padding-right: 350px;
+}
+.store-para p a{
+    color: white;
+}
+.store-para p a:hover{
+    color: white;
+    text-decoration: underline;
+}
