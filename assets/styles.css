@@ -230,6 +230,9 @@ footer p{
     border: 1px solid white;
 }
 /*************************** store-page ********************************/
+.main-text{
+    padding: 10px 140px 0px 140px
+}
 #store{
     color: white;
     background-image: url();
@@ -237,7 +240,7 @@ footer p{
 .store-imgbox{
     display: flex;
     flex-direction: row;
-    margin: 18px 100px 10px 140px ;
+    /* margin: 18px 100px 10px 140px ; */
 }
 .store-imgbox .box{
     padding: 17px;
@@ -253,14 +256,4 @@ footer p{
     font-size: 13px;
     
 }
-.store-p{
-    padding: 30px 100px 15px 140px;
-    display: flex;
-    flex-direction: row;
-}
-.store-p p{
-    color: white;
-    font-size: 17px;
-    padding-right: 300px;
-    padding-bottom: 7px;
-}
+
