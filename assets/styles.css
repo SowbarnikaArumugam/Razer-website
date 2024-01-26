@@ -195,3 +195,37 @@ h6{
     color: white;
     align-items: center;
 }
+
+footer .bottom{
+    padding: 30px 100px 20px 170px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+footer p{
+    color: rgb(89, 83, 83);
+}
+/* .box-content{
+    padding: 0px;
+} */
+.box-text{
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    
+}
+.box-text a i{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
