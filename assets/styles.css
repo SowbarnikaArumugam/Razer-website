@@ -73,7 +73,7 @@ header{
     margin-top: 50px;
     height: 45px;
     width: 100%;
-    background-color: rgba(83, 72, 72, 0.411);
+    background-color: rgba(139, 135, 135, 0.411);
 }
 .home p{
     padding: 11px;
@@ -272,6 +272,22 @@ footer p{
 .store-para p a:hover{
     color: white;
     text-decoration: underline;
+}
+.rowbox{
+   display: flex;
+   flex-direction: row;
+}
+.rowtext{
+    padding-top: 45px;
+    padding-left: 10px;
+}
+.rowtext h3{
+    font-size: 22px;
+    color: white;
+}
+.rowtext p{
+    font-size: 17px;
+    color: rgb(125, 118, 118);
 }
 .small-box{
     width: 298px;
