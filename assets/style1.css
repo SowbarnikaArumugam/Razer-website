@@ -10,9 +10,14 @@
     --bg-color: #000000;
     --text-color:#ffffff; 
     --head-color: rgb(17, 152, 17);
-    --head-font: 4.5rem;
-    --p-font: 17px;
+    --p-color: rgb(158, 148, 148);
+    --head-font: 1.9rem;
+    --p-font: 16px;
+    --small-font: 0.7rem;
 
+}
+body{
+    background-color: #000000;
 }
 header{
     font-family: Cambria;
@@ -25,16 +30,20 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 10px 18%;
+    padding-top: 10px;
+    padding-left: 10%;
     transition: .3s;
 
 }
 .navlist{
     display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 440px;
 }
-.navlist li{
+/* .navlist li{
     position: relative;
-}
+} */
 .navlist a{
     font-size: 17px;
     color: rgb(145, 137, 137);
@@ -51,12 +60,66 @@ header{
 }
 .navlist a:hover {
     color: white;
+    display: inline;
 }
-
+.search a i{
+    color: white;
+}
 #menu-icon{
     font-size: 35px;
     color: white;
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+/************ body ***************/
+.box1{
+    margin-top: 50px;
+    height: 55px;
+    width: 100%;
+    background-color: rgba(59, 56, 56, 0.411);
+    border-bottom: 1.5px solid rgb(15, 163, 15);
+}
+.box1 .list{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px 5px 150px;
+}
+.box1 .list li{
+    color: var(--text-color);
+    padding: 22px;
+    font-size: var(--small-font);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(129, 124, 124);
+    padding: 14px;
+}
+.home p{
+    color: var(--text-color);
+    font-size: var(--p-font);
+}
+.home p a{
+    color: var(--text-color);
+}
+.home p a:hover{
+    text-decoration: underline;
+}
+.text-content{
+    padding: 0px 100px 10px 160px;
+}
+.box2 h4{
+    font-family: 'Gill Sans';
+    color: var(--head-color);
+    font-size: var(--head-font);
+    padding-top: 27px;
+    align-items: center;
+}
+.box2 p{
+    color: var(--p-color);
+    font-size: var(--p-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
