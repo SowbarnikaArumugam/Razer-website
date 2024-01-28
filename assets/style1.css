@@ -49,7 +49,7 @@ header{
     font-size: 17px;
     color: rgb(145, 137, 137);
     font-weight: 250;
-    padding: 10px 24px;
+    padding: 10px 24px 15px;
 }
 .navlist a::after{
     background-color: transparent;
@@ -63,7 +63,7 @@ header{
     color: white;
     display: inline;
 }
-.search a i{
+.search a {
     color: white;
 }
 #menu-icon{
@@ -72,6 +72,9 @@ header{
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+#top{
+    color: white;
 }
 /************ body ***************/
 .box1{
