@@ -18,6 +18,7 @@
 }
 body{
     background-color: #3c3b3b;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     font-family: Cambria;
@@ -91,21 +92,21 @@ header{
     font-size: var(--small-font);
     font-family: Arial, Helvetica, sans-serif;
 }
-.home{
+.home1{
     height: 45px;
     width: 100%;
     align-items: center;
     background-color: rgb(129, 124, 124);
     padding: 14px;
 }
-.home p{
+.home1 p{
     color: var(--text-color);
     font-size: var(--p-font);
 }
-.home p a{
+.home1 p a{
     color: var(--text-color);
 }
-.home p a:hover{
+.home1 p a:hover{
     text-decoration: underline;
 }
 .box2{
@@ -169,4 +170,32 @@ header{
     color: rgb(15, 158, 15);
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+.bg1{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/pc-images/1920x700-desktop-cat-banner-completeyoursetup.webp);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.bg1 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.bg1 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.bg1 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.bg1 ul li{
+    color: rgb(15, 158, 15);
 }
