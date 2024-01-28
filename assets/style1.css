@@ -283,12 +283,35 @@ header{
     font-size: 12px;
 }
 footer{
-    background-color: rgb(33, 31, 31);
-    padding: 25px 125px ;
+    background-color: rgb(22, 20, 20);
+    padding: 25px 135px ;
 }
-
+footer ul{
+    width: 146.16px;
+    height: 312px;
+}
 .footer-div li{
-    padding-bottom: 15px;
-    color: #5e5a5a;
+    padding: 4px 0px 12px;
     font-size: 13px;
+    width: 146.16;
+    height: 34;
+}
+.footer-div li a{
+    color: #5e5a5a;
+}
+.footer-div li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer .footer-icon{
+    width: 146.16px;
+    height: 266px;
+}
+.footer-icon li{
+    padding: 0px 0px 16px;
+    
+}
+.footer-icon li img{
+    width: 28px;
+    height: 28px;
 }
