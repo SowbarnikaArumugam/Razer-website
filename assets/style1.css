@@ -39,26 +39,20 @@ header{
     font-size: 17px;
     color: rgb(145, 137, 137);
     font-weight: 250;
-    padding: 10px 27px;
+    padding: 10px 24px;
 }
 .navlist a::after{
     background-color: transparent;
     content: '';
     position: absolute;
     width: 0;
-    /* height: 2px; */
-    /* color: white; */
-    /* bottom: -3px; */
     left: 0;
     transition: ease .40s;
 }
 .navlist a:hover {
     color: white;
 }
-/* .navlist a:hover::after{
-    background-color: white;
-    width: 100%;
-} */
+
 #menu-icon{
     font-size: 35px;
     color: white;
