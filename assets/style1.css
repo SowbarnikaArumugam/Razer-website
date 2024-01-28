@@ -282,3 +282,13 @@ header{
     color: var(--p-color);
     font-size: 12px;
 }
+footer{
+    background-color: rgb(33, 31, 31);
+    padding: 25px 125px ;
+}
+
+.footer-div li{
+    padding-bottom: 15px;
+    color: #5e5a5a;
+    font-size: 13px;
+}
