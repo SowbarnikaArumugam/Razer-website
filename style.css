@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #000000;
+    --text-color:#ffffff; 
+    --head-color: rgb(17, 152, 17);
+    --head-font: 4.5rem;
+    --p-font: 17px;
+
+}
