@@ -40,7 +40,7 @@ header{
     display: flex;
     flex-direction: row;
     padding-left: 15px;
-    padding-right: 440px;
+    padding-right: 410px;
 }
 /* .navlist li{
     position: relative;
@@ -63,9 +63,11 @@ header{
     color: white;
     display: inline;
 }
-.search a {
-    color: white;
-}
+/* .search img{
+    width: 40px;
+    height: 35px;
+    padding-right: 75px;
+} */
 #menu-icon{
     font-size: 35px;
     color: white;
