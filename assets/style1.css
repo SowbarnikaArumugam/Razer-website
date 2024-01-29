@@ -12,7 +12,7 @@
     --head-color: rgb(17, 152, 17);
     --p-color: rgb(158, 148, 148);
     --head-font: 1.9rem;
-    --p-font: 16px;
+    --p-font: 15px;
     --small-font: 0.7rem;
 
 }
@@ -152,6 +152,7 @@ header{
 .box-one img{
     height: 402px;
     width: 402;
+    object-fit: cover;
     transition: transform 0.3s ease;
 }
 .box-one img:hover{
@@ -162,7 +163,7 @@ header{
     width: 100%;
     padding: 10px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
 }
 .box-one p{
