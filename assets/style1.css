@@ -367,7 +367,7 @@ footer ul{
 
 /**************************************** console-css *****************************************/
 .store-imgbox{
-    background-color: rgb(50, 48, 48);
+    background-color: rgb(34, 31, 31);
     padding: 30px 500px 8px;
     display: flex;
     flex-direction: row;
@@ -574,4 +574,18 @@ footer ul{
     color: rgb(7, 173, 7);
     font-size: 14px;
     
+}
+
+/******************************** mobile-css *********************************/
+.store-imgbox1{
+    background-color: rgb(40, 37, 37);
+    padding: 30px 500px 8px 350px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+    
+}
+.store-imgbox1 .box{
+    padding: 17px;
+    padding-top: 35px;
 }
