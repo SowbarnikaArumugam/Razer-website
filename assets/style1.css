@@ -239,7 +239,7 @@ header{
     width: 100%;
     padding: 10px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 19px;
     padding: 10px;
 }
 .box-ones p{
@@ -247,7 +247,7 @@ header{
     height: 94px;
     width: 100%;
     color: var(--p-color);
-    font-size: var(--p-font);
+    font-size: 14px;
     padding: 10px;
 }
 .box-ones a{
