@@ -589,3 +589,87 @@ footer ul{
     padding: 17px;
     padding-top: 35px;
 }
+.mobile-bg2{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/gamesetmatch-category-1920x700-desktop\ \(1\).jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.mobile-bg2 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.mobile-bg2 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.mobile-bg2 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.mobile-bg2 ul li{
+    color: rgb(15, 158, 15);
+}
+.mobile-bg3{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/gamesetmatch-category-1920x700-desktop\ \(1\).jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.mobile-bg2 h3{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.mobile-bg3 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.mobile-bg3 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.mobile-bg3 ul li{
+    color: rgb(15, 158, 15);
+}
+.mobile-bg4{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/gamesetmatch-category-1920x700-desktop\ \(1\).jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.mobile-bg4 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.mobile-bg4 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.mobile-bg4 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.mobile-bg4 ul li{
+    color: rgb(15, 158, 15);
+}
