@@ -46,7 +46,7 @@ header{
     position: relative;
 } */
 .navlist a{
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(145, 137, 137);
     font-weight: 250;
     padding: 10px 24px 15px;
@@ -211,7 +211,7 @@ header{
 }
 .boxss{
     display: grid;
-    padding: 0px 125px 20px 125px;
+    padding: 10px 125px 20px 125px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #2b2727;
     overflow: hidden;
@@ -222,15 +222,16 @@ header{
     width: 282px;
     border: none;
     border-bottom: 1.8px solid rgb(15, 163, 15);
-    transition: transform 0.3s ease;
+    overflow: hidden;
 }
 .box-ones img{
     height: 282px;
     width: 282;
+    transition: transform 0.3s ease;
 }
 .box-ones img:hover{
-    transform: scale(1.1);
-    overflow: hidden;
+    transform: scale(1.05);
+    
 }
 .box-ones .head{
     height: 31.6px;
@@ -318,7 +319,7 @@ footer ul{
     height: 34;
 }
 .footer-div li a{
-    color: #5e5a5a;
+    color: #7b7373;
 }
 .footer-div li a:hover{
     color: white;

@@ -10,6 +10,8 @@
 }
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -65,10 +67,10 @@ header{
     cursor: pointer;
     display: none;
 }
-/* .main-text-logo{
+section .main-text{
     margin: 0;
     padding: 0;
-} */
+}
 .home{
     margin-top: 50px;
     height: 45px;
@@ -197,37 +199,71 @@ h6{
     align-items: center;
 }
 
-footer .bottom{
-    padding: 30px 100px 20px 170px;
-    background-color: black;
+footer{
+    background-color: rgb(22, 20, 20);
+    padding: 25px 135px 5px 135px;
+}
+.footer-box{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10%;
-    column-gap: 3rem;
-    row-gap: 3rem;
+    grid-template-columns: 15% 15% 15% 15% 15% 25%;
+    border-bottom: 1px solid rgb(109, 102, 102);
 }
 
-footer p{
-    color: rgb(89, 83, 83);
-}
-/* .box-content{
-    padding: 0px;
-} */
-.box-text{
-    display: flex;
-    padding: 7px;
-    flex-direction: column;
+footer ul{
+    width: 146.16px;
+    height: 312px;
     
 }
-.box-text a i{
+.footer-div li{
+    padding: 4px 0px 10px;
+    font-size: 13px;
+    width: 146.16;
+    height: 34;
+}
+.footer-div li a{
+    color: #7b7373;
+}
+.footer-div li a:hover{
     color: white;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    font-size: 25px;
-    border-radius: 50%;
-    border: 1px solid white;
+    text-decoration: underline;
+}
+.footer .footer-icon{
+    width: 146.16px;
+    height: 266px;
+}
+.footer-icon li{
+    padding: 0px 0px 3px;
+    
+}
+.footer-icon li img{
+    width: 28px;
+    height: 28px;
+}
+.footer-icons ul{
+    height: 34px;
+    width:150px;
+}
+.footer-end{
+    padding: 15px 0px 20px 0px;
+}
+.footer-end span{
+    font-size: 12px;
+    color: rgb(148, 144, 144);
+    padding-right: 10px;
+}
+.footer-end a{
+    font-size: 12px;
+    color: rgb(148, 144, 144);
+    padding-right: 10px;
+}
+.footer-end a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: .2s ease;
+}
+.footer-end #footer-span{
+    font-size: 12px;
+    color: #ffffff;padding-left: 390px;
 }
 /*************************** store-page ********************************/
 .main-text{
