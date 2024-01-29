@@ -106,7 +106,7 @@ header{
 }
 .home1 p{
     color: var(--text-color);
-    font-size: var(--p-font);
+    font-size: 15px;
 }
 .home1 p a{
     color: var(--text-color);
@@ -116,7 +116,7 @@ header{
 }
 .box2{
     padding: 0px 100px 40px 90px;
-    background-color: #000000;
+    background-color: #191616;
     background-image: url();
 }
 .box2 h4{
@@ -352,4 +352,98 @@ footer ul{
 .footer-end #footer-span{
     font-size: 12px;
     color: #ffffff;padding-left: 390px;
+}
+
+/**************************************** console-css *****************************************/
+.store-imgbox{
+    background-color: rgb(50, 48, 48);
+    padding: 30px 500px 8px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+    
+}
+.store-imgbox .box{
+    padding: 17px;
+    padding-top: 35px;
+}
+.box img{
+    height: 35px;
+    width: 35px;
+}
+.box p{
+    padding-top: 8px;
+    padding-left: 0px;
+    color: white;
+    font-size: 12px;
+    
+}
+.box span{
+    padding-top: 8px;
+    padding-left: 0px;
+    color: rgb(231, 177, 78);
+    font-size: 12px;
+}
+.bg2{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/razer-kitsune-desktop-banner.jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.bg2 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.bg2 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.bg2 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.bg2 ul li{
+    color: rgb(15, 158, 15);
+}
+.bg3{
+    height:625.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.console-bgtext{
+    height: 400px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/new-year-2024-1920x400.webp);
+}
+.console-bgtext .box{
+    width: 317.51;
+    height: 241.2px;
+    padding-left: 950px;
+    padding-top: 45px;padding-right: 0px;
+}
+.console-bgtext .box h2{
+    color: #ffffff;
+    font-size: 28px;
+    margin: 48px 0px 16px;
+    height: 67.2;
+    width: 221.51;
+}
+.console-bgtext .box p{
+    color: #5f5858;
+    font-size: 18px;
+    height: 54;
+    width: 221.51;
+}
+.console-bgtext .box a{
+    color: rgb(47, 193, 47);
+    font-size: 14px;
+    padding-top: 10px;
 }
