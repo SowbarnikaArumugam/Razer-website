@@ -116,7 +116,7 @@ header{
 }
 .box2{
     padding: 0px 100px 40px 90px;
-    background-color: #191616;
+    background-color: #2b2727;
     background-image: url();
 }
 .box2 h4{
@@ -147,10 +147,15 @@ header{
     width: 402px;
     border: none;
     border-bottom: 1.8px solid rgb(15, 163, 15);
+    overflow: hidden;
 }
 .box-one img{
     height: 402px;
     width: 402;
+    transition: transform 0.3s ease;
+}
+.box-one img:hover{
+    transform: scale(1.1);
 }
 .box-one .head{
     height: 34px;
@@ -208,9 +213,8 @@ header{
     display: grid;
     padding: 0px 125px 20px 125px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* row-gap: 5px; */
-    /* column-gap: 15px; */
-    background-color: #393737;
+    background-color: #2b2727;
+    overflow: hidden;
 }
 .box-ones{
     background-color: #000000;
@@ -218,10 +222,15 @@ header{
     width: 282px;
     border: none;
     border-bottom: 1.8px solid rgb(15, 163, 15);
+    transition: transform 0.3s ease;
 }
 .box-ones img{
     height: 282px;
     width: 282;
+}
+.box-ones img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
 }
 .box-ones .head{
     height: 31.6px;
@@ -433,17 +442,134 @@ footer ul{
     color: #ffffff;
     font-size: 28px;
     margin: 48px 0px 16px;
-    height: 67.2;
+    height: 67.2px;
     width: 221.51;
 }
 .console-bgtext .box p{
     color: #5f5858;
     font-size: 18px;
-    height: 54;
+    height: 54px;
     width: 221.51;
 }
 .console-bgtext .box a{
     color: rgb(47, 193, 47);
     font-size: 14px;
     padding-top: 10px;
+}
+.console-bg2{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/gamesetmatch-category-1920x700-desktop\ \(1\).jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.console-bg2 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.console-bg2 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.console-bg2 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.console-bg2 ul li{
+    color: rgb(15, 158, 15);
+}
+.console-bg3{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.console-bg3 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.console-bg3 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.console-bg3 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.console-bg3 ul li{
+    color: rgb(15, 158, 15);
+}
+.console-bg4{
+    height:699.2px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/connect-compete-conquer-category-2023-1920x700-desktop.jpg);
+    border-bottom: 1.8px solid rgb(15, 163, 15);
+}
+.console-bg4 h2{
+    height: 95px;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 65px;
+    color: var(--text-color);
+}
+.console-bg4 p{
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 7px;
+    color: var(--p-color);
+}
+.console-bg4 ul{
+    height: 27.8px;
+    width: 100%;
+    font-size: 16px;
+}
+.console-bg4 ul li{
+    color: rgb(15, 158, 15);
+}
+.console-bgtext1{
+    height: 400px;
+    width: 100%;
+    background-image: url(../assets/images/console-images/new-year-2024-1920x400.webp);
+}
+.console-bgtext1 .box1{
+    width: 400px;
+    height: 400px;
+    margin: 60px 110px;
+    border: none;
+}
+.console-bgtext1 .box1 h2{
+    
+    height: 100px;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 70px 10px 15px;
+}
+.console-bgtext1 .box1 p{
+    
+    height: 140px;
+    color: grey;
+    font-size: 16px;
+    padding: 60px 5px 20px;
+}
+.console-bgtext1 .box1 a{
+
+    padding-left: 5px;
+    height: 25px;
+    color: rgb(7, 173, 7);
+    font-size: 14px;
+    
 }
