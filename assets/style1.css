@@ -696,14 +696,13 @@ footer ul{
     background-color: #141313;
     height: 229px;
     width: 100%;
-    padding: 34px 170px;
+    padding: 34px 210px;
     color: #ffffff;
 }
 .text-bg .text{
     height: 133px;
     width: 1030.4px;
     margin:  25.2px;
-    /* padding: 0px 100px; */
     font-size: 16px;
 }
 .text h6{
@@ -721,4 +720,39 @@ footer ul{
     font-size: 18px;
     height: 84px;
     line-height: 27px;
+}
+.bg-image{
+    height: 700px;
+    width: 100%;
+    background-image: url(../assets/images/lifestyle-images/1920x700-desktop-cat-banner-chairs.webp);
+}
+.bg-image .image{
+    height: 688px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 16px ;
+}
+.bg-image .image h6{
+    height: 26px;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 50px 0px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-image .image p{
+    height: 27px;
+    width: 920;
+    font-size: 18px;
+    color: #5f5858;
+    padding-bottom: 55px;
+    line-height: 27px;
+}
+.bg-image .image ul{
+    height: 56px;
+    width: 100% ;
+    font-size: 17px;
+}
+.bg-image .image li{
+    color: rgb(12, 167, 12);
 }
