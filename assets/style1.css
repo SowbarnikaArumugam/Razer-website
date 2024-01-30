@@ -690,3 +690,35 @@ footer ul{
 .mobile-bg4 ul li{
     color: rgb(15, 158, 15);
 }
+/**************************** lifestyle-css *************************************************/
+
+.text-bg{
+    background-color: #141313;
+    height: 229px;
+    width: 100%;
+    padding: 34px 170px;
+    color: #ffffff;
+}
+.text-bg .text{
+    height: 133px;
+    width: 1030.4px;
+    margin:  25.2px;
+    /* padding: 0px 100px; */
+    font-size: 16px;
+}
+.text h6{
+    color: rgb(10, 141, 10);
+    font-size: 26px;
+    font-weight: 200;
+    height: 41px;
+    width: 932px;
+    margin: 0px 0px 8px ;
+    padding: 0px 0px 8px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    color: #3f3d3d;
+    font-size: 18px;
+    height: 84px;
+    line-height: 27px;
+}
