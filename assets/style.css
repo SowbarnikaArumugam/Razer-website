@@ -209,10 +209,16 @@ label.checkbox-gap{
     background-color: black;
 }
 #p3{
-    color: white;
+    color: rgb(10, 128, 10);
     margin: 10px 0 0 140px;
 }
-
+#arrow{
+    color: white;
+    text-decoration: none;
+}
+#arrow:hover{
+    color: rgb(10, 128, 10);
+}
 .login-loginbutton{
     width: 200px;
     height: 25px;
