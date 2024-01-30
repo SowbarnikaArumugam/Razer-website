@@ -336,7 +336,16 @@ footer ul{
 }
 .small-box{
     width: 298px;
-    height: 544px;
+    height: 572px;
+    border: 0.5px solid black;
+    background-color: rgb(43, 40, 40);
+    margin: 17px 10px 20px 10px;
+    position: relative;
+    
+}
+.small-boxs{
+    width: 298px;
+    height: 540px;
     border: 0.5px solid black;
     background-color: rgb(43, 40, 40);
     margin: 17px 10px 20px 10px;
@@ -413,7 +422,7 @@ footer ul{
 }
 .box2{
     padding: 0px 100px 40px 90px;
-    background-color: #2b2727;
+    background-color: black;
     background-image: url();
 }
 .box2 h4{
@@ -433,16 +442,16 @@ footer ul{
 }
 .boxs{
     display: grid;
-    padding: 22px 125px 20px 125px;
+    padding: 22px 0px 20px 0px;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 12px;
     /* column-gap: 15px; */
-    background-color: #393737;
+    background-color: black;
 }
 .box-one{
     background-color: #000000;
     height: 530px;
-    width: 402px;
+    width: 395px;
     border: none;
     border-bottom: 1.8px solid rgb(15, 163, 15);
     overflow: hidden;
