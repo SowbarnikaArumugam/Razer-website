@@ -47,6 +47,7 @@ header{
 } */
 .navlist a{
     font-size: 15px;
+    font-family: Cambria;
     color: rgb(145, 137, 137);
     font-weight: 250;
     padding: 10px 24px 15px;

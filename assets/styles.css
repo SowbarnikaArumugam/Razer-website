@@ -48,7 +48,7 @@ header{
 .navlist a{
     font-size: 17px;
     color: rgb(145, 137, 137);
-    font-weight: 250;
+    font-weight: 300;
     padding: 10px 27px;
 }
 .navlist a::after{
