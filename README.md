@@ -5,3 +5,4 @@ Still Working on to make this website Responsive
 source code is in branch razer1
 you can explore it with : 
 https://gorgeous-torte-143982.netlify.app/
+Note: I am working on to make website responsive
