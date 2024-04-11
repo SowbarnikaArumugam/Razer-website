@@ -492,3 +492,42 @@ footer ul{
 .box-one a:hover{
     text-decoration: underline;
 }
+
+
+/* @media screen and (max-width: 768px) {
+    .top {
+        padding-left: 100px; 
+    }
+
+    .login,
+    .loginbox {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-group,
+    .logininput-groups {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button-group button,
+    .logininput-groups input {
+        width: 80%; 
+    }
+
+    #p,
+    #p1,
+    #ps,
+    #p3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
